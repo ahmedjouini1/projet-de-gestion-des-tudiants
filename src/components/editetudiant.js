@@ -48,7 +48,7 @@ function EditEtudiant() {
         <div className='d-flex flex-column align-items-center pt-4'>
             <h2>Edit Etudiant</h2>
             <form className="row g-3 w-50" onSubmit={update}>
-                {/* Form inputs and labels remain the same */}
+               
             </form>
         </div>
     );
