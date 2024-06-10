@@ -58,7 +58,7 @@ app.put("/update/:id", (req, res) => {
   con.query(q, [...values,userId], (err, data) => {
     if (err) return res.send(err);
     return res.json(data);
-    //return res.json({Status: "Success"})
+    
   });
 });
  
